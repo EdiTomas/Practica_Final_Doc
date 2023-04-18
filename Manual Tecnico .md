@@ -116,13 +116,10 @@ En la siguiente se mostrará el codigo que se agrego al perfil estudiantil para 
 Este apartado consiste en cargar los datos de las solvencias ya firmada por cada unidad a la que corresponde.
 
 ```
-         /*
-
-                foreach($SolvenciaPagada as $s){
+foreach($SolvenciaPagada as $s){
                      $ProcesoFirmas->getsigning($id,$s["orden_pago"],$solvenciaSolicitudHelper);
-                }
-                     
-        */
+}
+        
 ```
 
 
@@ -131,27 +128,21 @@ Esta parte del codigo realiza la encriptacion de los datos de la solvencia.
 
 Se iniciliza las variables para la incriptacion 
 ```
-          /*
-
-                        $No_Solvencia = 0;  
-                        $data_encriptar = [];
-                        $key_security=strtoupper("defecto");
-            */
-
-
+     $No_Solvencia = 0;  
+     $data_encriptar = [];
+     $key_security=strtoupper("defecto");
+            
 ```
 Se realiza la llamada a los metodo para poder incriptar los datos.
 
 
 ```
-          /*
-
-                            $correlativo = $hSolvenciaTable->getSiguienteCorrelativo(date("Y"));
-                            $key_security=$Key->Llave_de_Seguridad($carnet,$carrera,$Impresion_fecha_Admin,$correlativo);
-                            $data_encriptar=$Key->datos_solvencia($carnet,$key_security,$Impresion_fecha_Admin,$carrera,$correlativo,$solvenciaSolicitudHelper);
-                            $No_Solvencia = $Key->No_Solvencia($correlativo);
+    $correlativo = $hSolvenciaTable->getSiguienteCorrelativo(date("Y"));
+    $key_security=$Key->Llave_de_Seguridad($carnet,$carrera,$Impresion_fecha_Admin,$correlativo);
+    $data_encriptar=$Key->datos_solvencia($carnet,$key_security,$Impresion_fecha_Admin,$carrera,$correlativo,$solvenciaSolicitudHelper);
+    $No_Solvencia = $Key->No_Solvencia($correlativo);
                           
-            */
+        
 ```
 
 
