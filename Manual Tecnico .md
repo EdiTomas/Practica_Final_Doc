@@ -115,17 +115,15 @@ En la siguiente se mostrará el codigo que se agrego al perfil estudiantil para 
 ***Verificacion de la firma :***
 Este apartado consiste en cargar los datos de las solvencias ya firmada por cada unidad a la que corresponde.
 
-  ```
-         {
+```
+         /*
 
                 foreach($SolvenciaPagada as $s){
                      $ProcesoFirmas->getsigning($id,$s["orden_pago"],$solvenciaSolicitudHelper);
                 }
                      
-            }
-
-
-    ```
+        */
+```
 
 
 ***Encriptar Datos:***
