@@ -6,8 +6,8 @@
 - [ Solvencia ](#1-solvencia)
     - [Diagrama](#2-diagrama)
     - [Tabla y Campo](#3-tabla-y-campo)
-    - [Consulta de usuario](#3-consulta-de-usuario)
-    - [Actualización de usuario](#4-actualización-de-usuario)
+    - [Estudiante perfil](#4-estudiante-perfil)
+    - [Administracion](#5-administracion)
     - [Eliminación de usuario](#5-eliminación-de-usuario)
     - [Creación de Evento Electoral](#6-creación-de-evento-electoral)
     - [Consulta de Evento Electoral](#7-consulta-de-evento-electoral)
@@ -29,6 +29,12 @@
 | 201503783 | Edi Yovani Tomas Reynoso | 
 
 ## 1. Solvencia
+Diseñar una nueva aplicación de solicitud de solvencia
+electrónica del Departamento de Procesamiento de Datos de
+la universidad de San Carlos de Guatemala, con la finalidad
+de que los estudiantes del Centro Universitario del Sur puedan realizar una solicitud
+de solvencia electrónica la cual se utilizará tecnología reciente de software como MySQL y
+PHP en su versiones más recientes o actualizadas.
 
 ## 2. Diagrama 
 
@@ -60,10 +66,43 @@
     | descripcion_coordinador  | longtext | Si |
     
 * **historial_solvencia:**
+
+     Atributo | Tipo   | Nulo |
+    |----------|--------|-------------|
+    | anio     | int | No |
+    | correlativo    | int | No |
+    | carnet | int | No |
+    | carrera | decimal(10,0) | No |
+    | data | longtext | No |
+    | fecha | datetime | No |
+    | usuario | decimal(14,0) | No |
+    | actualfirma | varchar(250) | No |
+
+
   
 * **solicitud_solvencia:**
-
-
+    | Atributo | Tipo   | Nulo |
+    |----------|--------|-------------|
+    | id     | int | No |
+    | fecha | timestamp | No |
+    | carnet | decimal(10,0) | No |
+    | carrera | varchar(32) | No |
+    | solvencia_tipo | smallint | No |
+    | estado | int | No |
+    | orden_pago | varchar(32) | No |
+    | solvencia_correlativo | int | Si |
+    | impresion_fecha  | timestamp | Si |
+    | impresion_fecha_adm  | timestamp | Si |
+    | impresion_usuario | varchar(128) | Si |
+    | impresion_usuario_adm  | varchar(128) | Si |
+    | estado_firma | smallint | No |
+    | Encargado_Firma_Biblioteca | varchar(200) | Si |
+    | Encargado_Firma_Lab_Basico  | varchar(200)  | Si |
+    | Encargado_Firma_Lab_Experimental | varchar(200)  | Si |
+    | Encargado_Firma_Bodega | varchar(200)  | Si |
+    | Encargado_Firma_Tesoreria  | varchar(200)  | Si |
+    | Encargado_Firma_Coordinador | varchar(200)  | Si |
+    
 
 
 
