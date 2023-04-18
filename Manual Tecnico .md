@@ -44,10 +44,24 @@
     | firma_biblioteca | smallint | Si |
     | descripcion_biblioteca | longtext | Si |
     | nota_biblioteca | longtext | Si |
+    | firma_lab_basico | smallint | Si |
+    | descripcion_lab_basico  | longtext | Si |
+    | nota_basico  | longtext | Si |
 
+    | firma_lab_experimental | smallint | Si |
+    | descripcion_lab_experimental  | longtext | Si |
+    | nota_experimental | longtext | Si |
 
+    | 	firma_bodega | smallint | Si |
+    | descripcion_bodega  | longtext | Si |
+    | nota_bodega | longtext | Si |
 
+    | 	firma_tesoreria | smallint | Si |
+    | descripcion_tesoreria  | longtext | Si |
+    | nota_tesoreria | longtext | Si |
 
+    | 	firma_coordinador | smallint | Si |
+    | descripcion_coordinador  | longtext | Si |
     
 * **historial_solvencia:**
   
