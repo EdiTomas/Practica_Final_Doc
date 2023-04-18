@@ -130,7 +130,7 @@ Este apartado consiste en cargar los datos de las solvencias ya firmada por cada
 Esta parte del codigo realiza la encriptacion de los datos de la solvencia.
 
 Se iniciliza las variables para la incriptacion 
-    ```
+```
           /*
 
                         $No_Solvencia = 0;  
@@ -140,7 +140,9 @@ Se iniciliza las variables para la incriptacion
 
 
 ```
-Se realiza la llamada a los metodo para poder incriptar los datos. 
+Se realiza la llamada a los metodo para poder incriptar los datos.
+
+
 ```
           /*
 
@@ -150,7 +152,7 @@ Se realiza la llamada a los metodo para poder incriptar los datos.
                             $No_Solvencia = $Key->No_Solvencia($correlativo);
                           
             */
-   ```
+```
 
 
 
