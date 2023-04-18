@@ -108,9 +108,9 @@ PHP en su versiones más recientes o actualizadas.
 **solicitud_solvencia:**
 Aqui se inicia la solvencia del estudiante con el cual, podra solicitar y generar una boleta de pago.
 
-En la siguiente se mostrará el codigo que se agrego al perfil estudiantil para generar la solvencia.
-
 ![image](/Img/solvencia.png)
+
+En la siguiente se mostrará el codigo que se agrego al perfil estudiantil para generar la solvencia.
 
 ***Verificacion de la firma :***
 Este apartado consiste en cargar los datos de las solvencias ya firmada por cada unidad a la que corresponde.
