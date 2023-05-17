@@ -7,7 +7,8 @@
     - [Tabla y Campo](#2-tabla-y-campo)
     - [Estudiante perfil](#3-estudiante-perfil)
     - [Administracion](#4-administracion)
-    - [Eliminación de usuario](#5-eliminación-de-usuario)
+    - [Creacion de Archivos](#5-creacion-de-archivos)
+    - [Actualizacion de Archivos](#6-actualizacion-de-archivos)
     - [Creación de Evento Electoral](#6-creación-de-evento-electoral)
     - [Consulta de Evento Electoral](#7-consulta-de-evento-electoral)
     - [Actualización de Evento Electoral](#8-actualización-de-evento-electoral)
@@ -102,7 +103,7 @@ PHP en su versiones más recientes o actualizadas.
     | Encargado_Firma_Coordinador | varchar(200)  | Si |
     
 
-## 2. Estudiante perfil
+## 3. Estudiante perfil
 
 
 **solicitud_solvencia:**
@@ -141,9 +142,37 @@ Se realiza la llamada a los metodo para poder incriptar los datos.
     $key_security=$Key->Llave_de_Seguridad($carnet,$carrera,$Impresion_fecha_Admin,$correlativo);
     $data_encriptar=$Key->datos_solvencia($carnet,$key_security,$Impresion_fecha_Admin,$carrera,$correlativo,$solvenciaSolicitudHelper);
     $No_Solvencia = $Key->No_Solvencia($correlativo);
-                          
         
 ```
+## 4. Administracion
+
+    
+    
+
+
+## 5. Creacion de Archivos
+    Para este practica se creò algunos archivos que se encuentra el carpeta Entities.
+
+    | Atributo |Descripcion|
+    |----------|-----------|
+    |LlaveSolvencia.php | Este archivo se creò para encriptar los datos de la solvencia.|
+    |HistorialSolvencia.php | Se tomò como base el archivo Historial de Certificaciòn.|
+    |ProcesoFirmas.php | Este archivo se creò para realizar inserciones y actualizaciones en el proceso de firma.|
+    |SolicitudSolvencia.php | Se tomò como base el archivo de Solicitud de Certificaciòn .|
+    |RolTable.php | Este archivo se creò para consultar los Roles de los Usuarios.|
+    
+
+
+
+## 6. Actualizacion de Archivos
+
+
+
+
+
+
+
+
 
 
 
