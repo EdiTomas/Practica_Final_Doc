@@ -142,8 +142,11 @@ Se realiza la llamada a los metodo para poder incriptar los datos.
     $key_security=$Key->Llave_de_Seguridad($carnet,$carrera,$Impresion_fecha_Admin,$correlativo);
     $data_encriptar=$Key->datos_solvencia($carnet,$key_security,$Impresion_fecha_Admin,$carrera,$correlativo,$solvenciaSolicitudHelper);
     $No_Solvencia = $Key->No_Solvencia($correlativo);
-        
+
 ```
+
+
+
 ## 4. Administracion
 
     
@@ -153,9 +156,11 @@ Se realiza la llamada a los metodo para poder incriptar los datos.
 ## 5. Creacion de Archivos
     Para este practica se creò algunos archivos que se encuentra el carpeta Entities.
 
-    | Archivo | Descripciòn   |
-    |------------------------|--------|
-    | LlaveSolvencia.php     | int |
+* **solicitud_solvencia:**
+    | Atributo | Tipo   | Nulo |
+    |----------|--------|-------------|
+    | id     | int | No |
+    | fecha | timestamp | No |
    
 
 
