@@ -153,8 +153,8 @@ Se realiza la llamada a los metodo para poder incriptar los datos.
 ## 5. Creacion de Archivos
     Para este practica se creò algunos archivos que se encuentra el carpeta Entities.
 
-    | Atributo |Descripcion|
-    |----------|-----------|
+    | Atributo |  Descripcion   |
+    |----------|------------------------------------------------------------------------|
     |LlaveSolvencia.php | Este archivo se creò para encriptar los datos de la solvencia.|
     |HistorialSolvencia.php | Se tomò como base el archivo Historial de Certificaciòn.|
     |ProcesoFirmas.php | Este archivo se creò para realizar inserciones y actualizaciones en el proceso de firma.|
