@@ -9,17 +9,7 @@
     - [Administracion](#4-administracion)
     - [Creacion de Archivos](#5-creacion-de-archivos)
     - [Actualizacion de Archivos](#6-actualizacion-de-archivos)
-    - [Creación de Evento Electoral](#6-creación-de-evento-electoral)
-    - [Consulta de Evento Electoral](#7-consulta-de-evento-electoral)
-    - [Actualización de Evento Electoral](#8-actualización-de-evento-electoral)
-    - [Eliminación de Evento Electoral](#9-eliminación-de-evento-electoral)
-    - [Registro de planilla](#10-registro-de-planilla)
-    - [Eliminación de planilla](#11-eliminación-de-planilla)
-    - [Consulta de Planillas](#12-consulta-de-planillas)
-    - [Consulta de Candidatos](#13-consulta-de-candidatos)
-    - [Aprobación de planillas](#14-aprobación-de-planillas)
-    - [Votación](#15-votación)
-    - [Consulta de Resultados](#16-consulta-de-resultados)
+    
 - [Manual técnico](#manual-técnico)
 
 ## Practicante:
@@ -157,7 +147,7 @@ Se realiza la llamada a los metodo para poder incriptar los datos.
 * **Descripcion:**
          Para este practica se creò algunos archivos que se encuentra el carpeta Entities.
 
-* **Listado  de Archivos:**
+* **Listado  de Archivos de la carpeta Entities:**
     | Archivos |  Descripcion   |
     |----------|------------------------------------------------------------------------|
     |LlaveSolvencia.php | Este archivo se creò para encriptar los datos de la solvencia.|
@@ -165,11 +155,27 @@ Se realiza la llamada a los metodo para poder incriptar los datos.
     |ProcesoFirmas.php | Este archivo se creò para realizar inserciones y actualizaciones en el proceso de firma.|
     |SolicitudSolvencia.php | Se tomò como base el archivo de Solicitud de Certificaciòn .|
     |RolTable.php | Este archivo se creò para consultar los Roles de los Usuarios.|
-   
 
+* **Listado  de Archivos de la carpeta Helper:**
+   
+    | Archivos |  Descripcion   |
+    |----------|------------------------------------------------------------------------|
+    |SolvenciaHelper.php | Este archivo se creò para crear la solvencia.|
+
+* **Listado  de Archivos en la carpeta Administrativo:**
+   
+    | Archivos |  Descripcion   |
+    |----------|------------------------------------------------------------------------|
+    |inspeccionarfirmas.phtml | Este archivo contiene el diseño de la pagina verificar firmas.|
+    |solvencia.phtml | Este archivo contiene el diseño de la pagina de solvencia.|
 
 ## 6. Actualizacion de Archivos
 
+* **Listado  de Archivos en la carpeta Administrativo y Estudiantil:**
+
+    | Archivos |  Descripcion   |
+    |----------|------------------------------------------------------------------------|
+    |indexController.php | Este archivo fue modificado para agregarle metodos para el nuevo funcionamiento de la pagina.|
 
 
 
