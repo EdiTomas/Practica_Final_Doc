@@ -134,6 +134,10 @@ Se realiza la llamada a los metodo para poder incriptar los datos.
     $No_Solvencia = $Key->No_Solvencia($correlativo);
 
 ```
+![image](/Img/EncriptarDatos.PNG)
+
+
+
 
 
 
