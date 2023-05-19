@@ -112,6 +112,7 @@ foreach($SolvenciaPagada as $s){
 }
         
 ```
+![image](/Img/Verificar.PNG)
 
 
 ***Encriptar Datos:***
@@ -135,9 +136,13 @@ Se realiza la llamada a los metodo para poder incriptar los datos.
 
 ```
 ![image](/Img/EncriptarDatos.PNG)
+![image](/Img/EncriptarDatos1.PNG)
 
 
+***Proceso de Firma:***
+Esta parte del codigo se realiza la insercion de los datos previos a la tabla de Proceso de Firmas.
 
+![image](/Img/procesofirma.PNG)
 
 
 
