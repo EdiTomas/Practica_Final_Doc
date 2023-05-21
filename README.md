@@ -148,6 +148,17 @@ Esta parte del codigo se realiza la insercion de los datos previos a la tabla de
 
 ## 4. Administracion
 
+**Inspeccionar Firmas:**
+Aqui se verifica las fimara de cada encargado.
+
+**Metodo de Inspeccionar Firmas:**
+Este metodo se encuentra en el archivo indexController, nos ayudar a validar las firmas desde la pagina.
+
+![image](/Img/metodoInspeccionar.PNG)
+
+![image](/Img/actualizarFirmas.PNG)
+
+
     
     
 
@@ -186,6 +197,29 @@ Esta parte del codigo se realiza la insercion de los datos previos a la tabla de
     |----------|------------------------------------------------------------------------|
     |indexController.php | Este archivo fue modificado para agregarle metodos para el nuevo funcionamiento de la pagina.|
 
+
+
+## 7. Metodos Proceso de Firmas
+**Funcion add :**
+    Metodo que agregar a la tabla proceso de firma.
+![image](/Img/add.PNG)
+
+
+**Funcion getAllConfirmarSolvencia :**
+    Este metodo devuelvo un innerjoin de todos los datos del estudiante, que pagaron la solvencia y hace falta de firmar.
+![image](/Img/getAllConfirmar.PNG)
+
+**Funcion Lista_SolvenciaPagada :**
+    Devuelve el listado de la Solvencia Pagada.
+![image](/Img/Lista_solvencia_pagada.PNG)
+
+**Funcion getsigning :**
+    Este metodo se firma conforme a a la carrera.
+![image](/Img/getsigning.PNG)
+
+**Las funciones firmas :**
+    Los Metodos que actualizan  la tabla proceso de firma.
+![image](/Img/firma.PNG)
 
 
 
