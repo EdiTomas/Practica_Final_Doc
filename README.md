@@ -9,6 +9,8 @@
     - [Administracion](#4-administracion)
     - [Creacion de Archivos](#5-creacion-de-archivos)
     - [Actualizacion de Archivos](#6-actualizacion-de-archivos)
+    - [Metodos Proceso de Firmas](#7-metodos-proceso-de-firmas)
+    
     
 - [Manual técnico](#manual-técnico)
 
@@ -112,7 +114,7 @@ foreach($SolvenciaPagada as $s){
 }
         
 ```
-![image](/Img/Verificar.PNG)
+![image](/Img/Verficar.PNG)
 
 
 ***Encriptar Datos:***
